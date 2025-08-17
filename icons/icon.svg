@@ -1,6 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="45" stroke="#555" stroke-width="4" fill="none"/>
-  <rect x="30" y="25" width="40" height="30" rx="4" ry="4" fill="#777"/>
-  <line x1="50" y1="55" x2="50" y2="75" stroke="#555" stroke-width="3"/>
-  <circle cx="50" cy="82" r="3" fill="#555"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#cfcfd4"/>
+      <stop offset="1" stop-color="#9ea2a8"/>
+    </linearGradient>
+  </defs>
+  <!-- карточка календаря -->
+  <rect x="24" y="40" width="208" height="160" rx="18" fill="#e9ecef" stroke="#bfc5cc" stroke-width="6"/>
+  <rect x="24" y="40" width="208" height="36" rx="12" fill="#d5d9df"/>
+  <!-- клетки -->
+  <g fill="#c7ccd3">
+    <rect x="44" y="90" width="28" height="24" rx="6"/>
+    <rect x="78" y="90" width="28" height="24" rx="6"/>
+    <rect x="112" y="90" width="28" height="24" rx="6"/>
+    <rect x="146" y="90" width="28" height="24" rx="6"/>
+    <rect x="180" y="90" width="28" height="24" rx="6"/>
+    <rect x="44" y="120" width="28" height="24" rx="6"/>
+    <rect x="78" y="120" width="28" height="24" rx="6"/>
+    <rect x="112" y="120" width="28" height="24" rx="6"/>
+  </g>
+
+  <!-- часы -->
+  <circle cx="188" cy="178" r="42" fill="url(#g)" stroke="#8f939a" stroke-width="6"/>
+  <circle cx="188" cy="178" r="36" fill="#f2f3f5"/>
+  <line x1="188" y1="178" x2="188" y2="150" stroke="#777c84" stroke-width="6" stroke-linecap="round"/>
+  <line x1="188" y1="178" x2="210" y2="178" stroke="#777c84" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="188" cy="178" r="4" fill="#777c84"/>
+  <rect x="176" y="120" width="24" height="10" rx="4" fill="#b3b7bf"/>
 </svg>
